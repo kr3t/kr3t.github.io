@@ -1,0 +1,19 @@
+.kr3t {
+    background-image: url(../img/programming-1857236_1920.jpg);
+    background-attachment: fixed;
+    color: black;
+    font-weight: 200;
+}
+
+.kr3t_over {
+    background: rgba(255, 255, 255, .6);
+    padding: 20px;
+}
+.kr3t_skill{
+    padding: 0;
+    margin: 0;
+}
+.kr3t_head{
+    color:black;
+    font-weight: 200;
+}
