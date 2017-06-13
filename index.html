@@ -50,42 +50,40 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xs-4 col-lg-4 col-md-4">
+                    <div class="col-xs-12 col-lg-4 col-md-6">
                         <h2 class="kr3t_head">Info</h2>
-                        <div class="kr3t_info"><span class="glyphicon glyphicon-user"></span><span>Krzysztof Kreft</span><br>
-                        <span class="glyphicon glyphicon-phone"></span><span>Krzysztof Kreft</span><br>
-                        <span class="glyphicon "></span><span>Krzysztof Kreft</span></div>
+                        <div class="kr3t_info"><span class="glyphicon glyphicon-user"></span><span class="kr3t_personal">Krzysztof Kreft</span><br>
+                        <span class="glyphicon glyphicon-phone"></span><span class="kr3t_personal">+48 123 456 789</span><br>
+                        <span class="glyphicon glyphicon-envelope	Try it
+ "></span><span class="kr3t_personal">mail@mail.to</span></div>
 
 
 
                     </div>
                     <!--/.col-xs-6.col-lg-4-->
-                    <div class="col-xs-4 col-lg-4 col-md-4">
+                    <div class="col-xs-12 col-lg-4 col-md-6">
                         <h2 class="kr3t_head">Skills/Umiejętności</h2>
                         <p class="kr3t_skill">CSS</p>
                         <div class="progress">
                             <div class="progress-bar progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
-                                CSS: 4/10
                             </div>
                         </div>
                         <p class="kr3t_skill">HTML</p>
                         <div class="progress">
                             <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
-                                HTML 5/10
                             </div>
                         </div>
                         <p class="kr3t_skill">JS</p>
                         <div class="progress">
                             <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width:20%">
-                                JS 2/10
                             </div>
                         </div>
 
 
                     </div>
                     <!--/.col-xs-6.col-lg-4-->
-                    <div class="col-xs-4 col-lg-4 col-md-4">
-                        <h2 class="kr3t_head">ZZZS</h2>
+                    <div class="col-xs-12 col-lg-4 col-md-6">
+                        <h2 class="kr3t_head">Me / Ja</h2>
                         <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
                         <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
                     </div>
@@ -117,6 +115,13 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script> $(document).ready(function() {
+      $('.progress .progress-bar').css("width",
+                function() {
+                    return $(this).attr("aria-valuenow") + "%";
+                }
+        )
+    });</script>
 
 </body>
 

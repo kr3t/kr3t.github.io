@@ -1,7 +1,7 @@
 .kr3t {
     background-image: url(../img/programming-1857236_1920.jpg);
     background-attachment: fixed;
-    color: black;
+    color: 4d4c4c;
     font-weight: 200;
 }
 
@@ -14,10 +14,21 @@
     margin: 0;
 }
 .kr3t_head{
-    color:black;
-    font-weight: 200;
+    color:#4d4c4c;
+    font-weight: 300;
+    opacity: .7
 }
+.kr3t_head:hover{opacity: 1;}
 .kr3t_info{
     font-size: 30px;
     font-weight: 200;
+}
+.kr3t_personal{
+    color:#4d4c4c;
+    padding-left: 35px;
+    font-weight: 100;
+    letter-spacing: 1.3px;
+}
+.progress{
+    height: 8px;
 }
