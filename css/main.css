@@ -6,17 +6,19 @@
 }
 
 .kr3t_over {
-    background: rgba(255, 255, 255, .6);
+    background: rgba(255, 255, 255, .7);
     padding: 20px;
 }
 .kr3t_skill{
     padding: 0;
     margin: 0;
+    font-weight: 200;
+    padding-left: 10px;
 }
 .kr3t_head{
     color:#4d4c4c;
     font-weight: 300;
-    opacity: .7
+    opacity: .6
 }
 .kr3t_head:hover{opacity: 1;}
 .kr3t_info{
@@ -32,7 +34,19 @@
 .progress{
     height: 8px;
 }
-.progress-bar {
-  text-align: left;
-  transition-duration: 3s;
+.kr3t_progress{
+    background-color: #4d4c4c;
+    opacity: 0.6;
 }
+.kr3t_workinfo{
+    color:black;
+    font-weight: 500;
+    letter-spacing: 1.5px
+}
+.mygall{
+    padding-bottom: 15px;
+}
+/* Kolory / Colors */
+.chtml:hover{background-color: #e34f26; opacity:1;}
+.ccss:hover{background-color: #3F62AB; opacity: 1;}
+.cjs:hover{background-color: yellow; opacity: 1;}
